@@ -25,6 +25,6 @@ public class ApiRest {
 
     @GetMapping(path = "/usecase/path")
     public String commandName() {
-        return "";
+        return "Corriendo";
     }
 }
